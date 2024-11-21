@@ -5,7 +5,7 @@
     {{-- @include('frontend.partials.alphabet') --}}
     @include('frontend.partials.type')
     @include('frontend.partials.testimonials')
-    @include('frontend.partials.data')
+    {{-- @include('frontend.partials.data') --}}
     {{-- @include('frontend.partials.service')
     @livewire('frontend.contact-people') --}}
     {{--@include('frontend.partials.contact')--}}

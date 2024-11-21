@@ -6,7 +6,7 @@
             <h2 class="fw-bold">Aprende el abecedario en Señas</h2>
         </div>
         <div class="row mt-4">
-            <div class="col-2">
+            <div class="col-sm-2 col-6 my-2">
                 <div class="service-box-10">
                     <div class="card border-0">
                         <video src="{{ asset('frontend/img/pagina/abecedario/A.mp4') }}" class="card-img-top img-fluid hover-video hover-video" style="border-radius: 12px !important;Z" loop muted></video>
@@ -16,7 +16,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-2">
+            <div class="col-sm-2 col-6 my-2">
                 <div class="service-box-10">
                     <div class="card border-0">
                         <video src="{{ asset('frontend/img/pagina/abecedario/B.mp4') }}" class="card-img-top img-fluid hover-video" style="border-radius: 12px !important;Z"  loop muted></video>
@@ -26,7 +26,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-2">
+            <div class="col-sm-2 col-6 my-2">
                 <div class="service-box-10">
                     <div class="card border-0">
                         <video src="{{ asset('frontend/img/pagina/abecedario/C.mp4') }}" class="card-img-top img-fluid hover-video" style="border-radius: 12px !important;Z"  loop muted></video>
@@ -36,7 +36,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-2">
+            <div class="col-sm-2 col-6 my-2">
                 <div class="service-box-10">
                     <div class="card border-0">
                         <video src="{{ asset('frontend/img/pagina/abecedario/D.mp4') }}" class="card-img-top img-fluid hover-video" style="border-radius: 12px !important;Z"  loop muted></video>
@@ -46,7 +46,17 @@
                     </div>
                 </div>
             </div>
-            <div class="col-2">
+            <div class="col-sm-2 col-6 my-2">
+                <div class="service-box-10">
+                    <div class="card border-0">
+                        <video src="{{ asset('frontend/img/pagina/abecedario/E.mp4') }}" class="card-img-top img-fluid hover-video" style="border-radius: 12px !important;Z"  loop muted></video>
+                        <div class="card-body">
+                            <h5 class="card-title text-center mb-0">E</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-2 col-6 my-2">
                 <div class="service-box-10">
                     <div class="card border-0">
                         <video src="{{ asset('frontend/img/pagina/abecedario/F.mp4') }}" class="card-img-top img-fluid hover-video" style="border-radius: 12px !important;Z"  loop muted></video>
@@ -56,7 +66,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col-2">
+        </div>
+        <div class="row mt-4">
+            <div class="col-sm-2 col-6 my-2">
                 <div class="service-box-10">
                     <div class="card border-0">
                         <video src="{{ asset('frontend/img/pagina/abecedario/G.mp4') }}" class="card-img-top img-fluid hover-video" style="border-radius: 12px !important;Z"  loop muted></video>
@@ -66,9 +78,7 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="row mt-4">
-            <div class="col-2">
+            <div class="col-sm-2 col-6 my-2">
                 <div class="service-box-10">
                     <div class="card border-0">
                         <video src="{{ asset('frontend/img/pagina/abecedario/H.mp4') }}" class="card-img-top img-fluid hover-video" style="border-radius: 12px !important;Z"  loop muted></video>
@@ -78,7 +88,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-2">
+            <div class="col-sm-2 col-6 my-2">
                 <div class="service-box-10">
                     <div class="card border-0">
                         <video src="{{ asset('frontend/img/pagina/abecedario/I.mp4') }}" class="card-img-top img-fluid hover-video" style="border-radius: 12px !important;Z"  loop muted></video>
@@ -88,7 +98,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-2">
+            <div class="col-sm-2 col-6 my-2">
                 <div class="service-box-10">
                     <div class="card border-0">
                         <video src="{{ asset('frontend/img/pagina/abecedario/J.mp4') }}" class="card-img-top img-fluid hover-video" style="border-radius: 12px !important;Z"  loop muted></video>
@@ -98,7 +108,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-2">
+            <div class="col-sm-2 col-6 my-2">
                 <div class="service-box-10">
                     <div class="card border-0">
                         <video src="{{ asset('frontend/img/pagina/abecedario/K.mp4') }}" class="card-img-top img-fluid hover-video" style="border-radius: 12px !important;Z"  loop muted></video>
@@ -108,7 +118,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-2">
+            <div class="col-sm-2 col-6 my-2">
                 <div class="service-box-10">
                     <div class="card border-0">
                         <video src="{{ asset('frontend/img/pagina/abecedario/L.mp4') }}" class="card-img-top img-fluid hover-video" style="border-radius: 12px !important;Z"  loop muted></video>
@@ -118,7 +128,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col-2">
+        </div>
+        <div class="row mt-4">
+            <div class="col-sm-2 col-6 my-2">
                 <div class="service-box-10">
                     <div class="card border-0">
                         <video src="{{ asset('frontend/img/pagina/abecedario/M.mp4') }}" class="card-img-top img-fluid hover-video" style="border-radius: 12px !important;Z"  loop muted></video>
@@ -128,9 +140,7 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="row mt-4">
-            <div class="col-2">
+            <div class="col-sm-2 col-6 my-2">
                 <div class="service-box-10">
                     <div class="card border-0">
                         <video src="{{ asset('frontend/img/pagina/abecedario/N.mp4') }}" class="card-img-top img-fluid hover-video" style="border-radius: 12px !important;Z"  loop muted></video>
@@ -140,7 +150,17 @@
                     </div>
                 </div>
             </div>
-            <div class="col-2">
+            <div class="col-sm-2 col-6 my-2">
+                <div class="service-box-10">
+                    <div class="card border-0">
+                        <video src="{{ asset('frontend/img/pagina/abecedario/NN.mp4') }}" class="card-img-top img-fluid hover-video" style="border-radius: 12px !important;Z"  loop muted></video>
+                        <div class="card-body">
+                            <h5 class="card-title text-center mb-0">Ñ</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-2 col-6 my-2">
                 <div class="service-box-10">
                     <div class="card border-0">
                         <video src="{{ asset('frontend/img/pagina/abecedario/O.mp4') }}" class="card-img-top img-fluid hover-video" style="border-radius: 12px !important;Z"  loop muted></video>
@@ -150,7 +170,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-2">
+            <div class="col-sm-2 col-6 my-2">
                 <div class="service-box-10">
                     <div class="card border-0">
                         <video src="{{ asset('frontend/img/pagina/abecedario/P.mp4') }}" class="card-img-top img-fluid hover-video" style="border-radius: 12px !important;Z"  loop muted></video>
@@ -160,7 +180,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-2">
+            <div class="col-sm-2 col-6 my-2">
                 <div class="service-box-10">
                     <div class="card border-0">
                         <video src="{{ asset('frontend/img/pagina/abecedario/Q.mp4') }}" class="card-img-top img-fluid hover-video" style="border-radius: 12px !important;Z"  loop muted></video>
@@ -170,7 +190,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col-2">
+        </div>
+        <div class="row mt-4">
+            <div class="col-sm-2 col-6 my-2">
                 <div class="service-box-10">
                     <div class="card border-0">
                         <video src="{{ asset('frontend/img/pagina/abecedario/R.mp4') }}" class="card-img-top img-fluid hover-video" style="border-radius: 12px !important;Z"  loop muted></video>
@@ -180,7 +202,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-2">
+            <div class="col-sm-2 col-6 my-2">
                 <div class="service-box-10">
                     <div class="card border-0">
                         <video src="{{ asset('frontend/img/pagina/abecedario/S.mp4') }}" class="card-img-top img-fluid hover-video" style="border-radius: 12px !important;Z"  loop muted></video>
@@ -190,9 +212,7 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="row mt-4">
-            <div class="col-2">
+            <div class="col-sm-2 col-6 my-2">
                 <div class="service-box-10">
                     <div class="card border-0">
                         <video src="{{ asset('frontend/img/pagina/abecedario/T.mp4') }}" class="card-img-top img-fluid hover-video" style="border-radius: 12px !important;Z"  loop muted></video>
@@ -202,7 +222,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-2">
+            <div class="col-sm-2 col-6 my-2">
                 <div class="service-box-10">
                     <div class="card border-0">
                         <video src="{{ asset('frontend/img/pagina/abecedario/U.mp4') }}" class="card-img-top img-fluid hover-video" style="border-radius: 12px !important;Z"  loop muted></video>
@@ -212,7 +232,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-2">
+            <div class="col-sm-2 col-6 my-2">
                 <div class="service-box-10">
                     <div class="card border-0">
                         <video src="{{ asset('frontend/img/pagina/abecedario/V.mp4') }}" class="card-img-top img-fluid hover-video" style="border-radius: 12px !important;Z"  loop muted></video>
@@ -222,7 +242,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-2">
+            <div class="col-sm-2 col-6 my-2">
                 <div class="service-box-10">
                     <div class="card border-0">
                         <video src="{{ asset('frontend/img/pagina/abecedario/W.mp4') }}" class="card-img-top img-fluid hover-video" style="border-radius: 12px !important;Z"  loop muted></video>
@@ -232,7 +252,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col-2">
+        </div>
+        <div class="d-flex mt-4 justify-content-evenly">
+            <div class="col-sm-2 col-6 my-2">
                 <div class="service-box-10">
                     <div class="card border-0">
                         <video src="{{ asset('frontend/img/pagina/abecedario/X.mp4') }}" class="card-img-top img-fluid hover-video" style="border-radius: 12px !important;Z"  loop muted></video>
@@ -242,7 +264,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-2">
+            <div class="col-sm-2 col-6 my-2">
                 <div class="service-box-10">
                     <div class="card border-0">
                         <video src="{{ asset('frontend/img/pagina/abecedario/Y.mp4') }}" class="card-img-top img-fluid hover-video" style="border-radius: 12px !important;Z"  loop muted></video>
@@ -252,9 +274,7 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="d-flex mt-4 justify-content-evenly">
-            <div class="col-2">
+            <div class="col-sm-2 col-6 my-2">
                 <div class="service-box-10">
                     <div class="card border-0">
                         <video src="{{ asset('frontend/img/pagina/abecedario/Z.mp4') }}" class="card-img-top img-fluid hover-video" style="border-radius: 12px !important;Z"  loop muted></video>

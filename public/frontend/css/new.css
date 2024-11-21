@@ -381,3 +381,36 @@ i {
     margin: 0 5px;
     color: #9e7d60;
 }
+#navbar {
+    position: relative; /* O usa fixed si necesitas que el navbar sea fijo */
+    z-index: 1000; /* Un valor alto para asegurarte de que esté encima */
+}
+
+#menu-mobile {
+    position: relative;
+    z-index: 500; /* Un valor más bajo para que quede detrás del navbar */
+}
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Asegura que el sidebar ocupe toda la altura de la ventana */
+    width: 250px; /* Ajusta según el diseño deseado */
+    background-color: #f8f9fa; /* Color de fondo del sidebar */
+}
+.navbar-nav-mobile {
+    flex: 1; /* Ocupa el espacio restante entre el header y el footer */
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    overflow-y: auto; /* Permite desplazamiento si hay demasiados enlaces */
+}
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
+    z-index: 999; /* Por debajo del sidebar pero encima del resto */
+    display: none; /* Oculto por defecto */
+}

@@ -13,7 +13,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{$app_name}} @yield('title')</title>
+    <title>@yield('Sueños que unen')</title>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
@@ -24,7 +24,7 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link rel="icon" type="image/x-icon" href="{{asset('frontend/img/pagina/logo.jpg')}}" style="border-radius: 50%;">/>
+    <link rel="icon" type="image/x-icon" href="{{asset('frontend/img/pagina/logo.jpg')}}" style="border-radius: 50%;">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com"/>
@@ -85,16 +85,19 @@
     <link rel="stylesheet" href="{{asset('frontend/css/responsive.css')}}"/>
     <link rel="stylesheet" href="{{asset('frontend/css/animations.css')}}"/>
     <link rel="stylesheet" href="{{asset('frontend/css/keyframes.css')}}"/>
-    <script async src="https://maps.googleapis.com/maps/api/js?key={{$api_google_maps}}&libraries=places"></script>
     @livewireStyles
 </head>
 <body>
     <div id="main-content">
-        @include('frontend.layouts.nav')
+        <div id="navbar">
+            @include('frontend.layouts.nav')
+        </div>
         <div style="min-height: 100vh;">
             @yield('content')
         </div>
-        @include('frontend.layouts.menu-mobile')
+        <div id="menu-mobile">
+            @include('frontend.layouts.menu-mobile')
+        </div>
         @include('frontend.layouts.footer')
     </div>
 @livewireScripts
