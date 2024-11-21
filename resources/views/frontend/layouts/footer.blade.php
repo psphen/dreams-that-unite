@@ -6,21 +6,21 @@
         <div class="footer-contact">
             <p class="mb-0">
                 <div class="d-flex align-items-center mb-2">
-                    <i class="fa-solid fa-location-dot me-2" style="font-size: 20px;"></i>Calle 47 -15 -45 buque<br>
+                    <i class="fa-solid fa-location-dot me-2" style="font-size: 20px;"></i>Cl. 37 #02 # 41, Villavicencio, Meta  <br>
                 </div>
                 <div class="d-flex align-items-center mb-2">
-                    <i class="fa-solid fa-phone me-2" style="font-size: 20px;"></i>3213467986<br>
+                    <i class="fa-solid fa-phone me-2" style="font-size: 20px;"></i>3046303524<br>
                 </div>
                 <div class="d-flex align-items-center mb-2">
-                    <i class="fa-solid fa-envelope me-2" style="font-size: 20px;"></i>Crecercontigovillavo@gamil.com
+                    <i class="fa-solid fa-envelope me-2" style="font-size: 20px;"></i>jinny.parra@unillanos.edu.co
                 </div>
             </p>
         </div>
         <div class="footer-links">
             <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Servicios</a></li>
-                <li><a href="#">Nosotros</a></li>
+                <li><a href="{{route('frontend.index')}}">Inicio</a></li>
+                <li><a href="{{route('alphabet.index')}}">Abecedario</a></li>
+                <li><a href="{{route('word.index')}}">Palabras</a></li>
             </ul>
         </div>
     </div>

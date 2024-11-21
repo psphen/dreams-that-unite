@@ -16,49 +16,12 @@ class FrontendController extends Controller
     {
         return view('frontend.about-us.index');
     }
-    public function contact()
+    public function alphabet()
     {
-        return view('frontend.contact.index');
+        return view('frontend.alphabet.index');
     }
-    public function marketplace()
+    public function word()
     {
-        return view('frontend.marketplace.index');
-    }
-    public function city()
-    {
-        return view('frontend.cities.show');
-    }
-    public function place(){
-        return view('frontend.places.show');
-    }
-    public function profile()
-    {
-        return view('frontend.profile.index');
-    }
-    public function userProfile()
-    {
-        return view('frontend.userprofile.index');
-    }
-    public function search()
-    {
-        return view('frontend.search');
-    }
-    public function category()
-    {
-        return view('frontend.categories.show');
-    }
-    public function services()
-    {
-        return view('frontend.services.index');
-    }
-    public function servicesDetail($id)
-    {
-        $service = Service::find($id);
-        
-        return view('frontend.services.details', compact('service'));
-    }
-    public function pedido()
-    {
-        return view('frontend.pedido');
+        return view('frontend.words.index');
     }
 }

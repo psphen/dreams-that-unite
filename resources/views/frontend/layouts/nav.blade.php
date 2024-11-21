@@ -10,11 +10,11 @@
                 <li class="nav-item {{Route::is('frontend.index') ? 'active' : ''}}">
                     <a href="{{route('frontend.index')}}" class="nav-link">Inicio</a>
                 </li>
-                <li class="nav-item {{Route::is('frontend.service') ? 'active' : ''}} mx-5">
-                    <a href="{{route('frontend.service')}}" class="nav-link">Servicios</a>
+                <li class="nav-item {{Route::is('alphabet.index') ? 'active' : ''}} mx-5">
+                    <a href="{{route('alphabet.index')}}" class="nav-link">Abecedario</a>
                 </li>
-                <li class="nav-item {{Route::is('about.index') ? 'active' : ''}}">
-                    <a href="{{route('about.index')}}" class="nav-link">Nosotros</a>
+                <li class="nav-item {{Route::is('word.index') ? 'active' : ''}}">
+                    <a href="{{route('word.index')}}" class="nav-link">Palabras</a>
                 </li>
             </ul>
         </div>

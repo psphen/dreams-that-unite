@@ -1,5 +1,5 @@
 .bg-navbar-theme {
-    background-color: #5d6a79 !important;
+    background-color: #1d1d1c !important;
     color: #6f6b7d;
 }
 .bg-navbar-theme .navbar-nav .show > .nav-link, .bg-navbar-theme .navbar-nav .active > .nav-link, .bg-navbar-theme .navbar-nav .nav-link.show, .bg-navbar-theme .navbar-nav .nav-link.active {
@@ -34,8 +34,8 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 h6, .h6 {
     font-size: 0.8675rem !important;
 }
-.bg-footer{
-    background-color: #5d6a79 !important; 
+.bg-footer {
+    background-color: #1d1d1c !important;
     background-size: cover;
 }
 .nav-link i {
@@ -74,10 +74,10 @@ h6, .h6 {
     background-color: #b2958c;
 }
 .service-box{
-    border-radius: 12px;
-    box-shadow: 0 2px 15px rgb(0 0 0 / 37%);
-    background-color: #ffffff;
-    border: 3px solid #b2958c;
+    border-radius: 35px;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 37%);
+    background-color: #e3e3e3;
+    border: 2px solid #dad5d2;
 }
 .btn-new{
     color: #fff;
@@ -88,6 +88,29 @@ h6, .h6 {
     background-color: #ff7224;
     color: #ffffff;
     border: none;
+}
+.btn-primary{
+    color: #fff;
+    background-color: #b09880;
+    border-color: #b09880;
+    border-radius: 30px;
+    box-shadow: 0 3px 5px rgb(0 0 0 / 37%);
+}
+.btn-primary:hover {
+    color: #fff !important;
+    background-color: #937d66 !important;
+    border-color: #b09880 !important;
+}
+.btn-check:checked + .btn-primary, .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active, .btn-primary.show.dropdown-toggle, .show > .btn-primary.dropdown-toggle {
+    color: #fff !important;
+    background-color: #937d66 !important;
+    border-color: #b09880 !important;
+}
+.btn-check:focus + .btn-primary, .btn-primary:focus, .btn-primary.focus {
+    color: #fff;
+    background-color: #937d66 !important;
+    border-color: #b09880 !important;
+    box-shadow: 0 3px 5px rgb(0 0 0 / 37%);
 }
 .contact-form{
     background-color: #4b5e6d; 
@@ -238,4 +261,123 @@ h6, .h6 {
     padding: 5px 9px;
     font-size: 12px;
     font-weight: bold;
+}
+.card-img-top {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 0 auto;
+}
+.card {
+    background: none;
+    box-shadow: none;
+}
+h1, h2 {
+    font-family: 'Arial', sans-serif;
+}
+.service-box-10{
+    padding: 10px 10px 0px;
+    border-radius: 12px;
+    box-shadow: 0 5px 5px rgb(0 0 0 / 37%);
+    background-color: #e2e2e2;
+    border: 3px solid #9e7d60;
+}
+.profile-card {
+    background-color: #1d1d1c;
+    border-radius: 35px;
+    padding: 20px;
+    color: #fff;
+    text-align: left;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.profile-card img {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+.profile-card h5 {
+    margin: 0;
+}
+.profile-card p {
+    font-size: 0.9rem;
+    margin: 0;
+}
+.green-line {
+    border-left: 4px solid #b09880;
+    padding-left: 10px;
+}
+.imagen-1 {
+    width: 67%;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2) !important;
+}
+.imagen-2 {
+    position: absolute;
+    bottom: -33px;
+    right: 10px;
+    width: 54%;
+    z-index: 10;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2) !important;
+}
+body {
+    background: #f3f3f3;
+    width: 100%;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+.about{
+    background-color: #d7c9b8;
+    border-radius: 35px !important;
+}
+*::-webkit-scrollbar-thumb {
+    background: #1d1d1c !important;
+}
+.custom-card {
+    border: 2px solid #9e7d60;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    background-color: #f9f9f9;
+}
+
+.custom-card::before,
+.custom-card::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: #f9f9f9;
+    border: 2px solid #9e7d60;
+    border-radius: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.custom-card::before {
+    left: -16px;
+}
+
+.custom-card::after {
+    right: -16px;
+}
+
+.custom-card:first-child::before {
+    display: none;
+}
+
+.custom-card:last-child::after {
+    display: none;
+}
+
+.card-title {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+i {
+    font-size: 24px;
+    margin: 0 5px;
+    color: #9e7d60;
 }
