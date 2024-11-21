@@ -1,7 +1,7 @@
 <footer class="footer bg-light position-relative d-none d-lg-block bg-footer">
     <div class="footer-content">
         <div class="footer-logo">
-            <img src="{{asset('crecer-contigo/Logo png.png')}}" alt="Logo" class="img-fluid" style="height: 75px">
+            <img src="{{asset('frontend/img/pagina/logo.jpg')}}" alt="Logo" class="img-fluid" style="height: 75px; border-radius: 50%;">
         </div>
         <div class="footer-contact">
             <p class="mb-0">

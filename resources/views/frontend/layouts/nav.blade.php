@@ -2,7 +2,7 @@
     <div class="container-fluid">
         <div class="col-2 d-flex justify-content-center align-items-center">
             <a class="navbar-brand mx-2 py-0" href="{{route('frontend.index')}}">
-                <img src="{{asset('crecer-contigo/Logo png.png')}}" alt="Logo" class="img-fluid" style="height: 75px">
+                <img src="{{asset('frontend/img/pagina/logo.jpg')}}" alt="Logo" class="img-fluid" style="height: 75px; border-radius: 50%;">
             </a>
         </div>
         <div class="col-8 d-flex justify-content-center">
@@ -19,12 +19,6 @@
             </ul>
         </div>
         <div class="col-2 d-flex justify-content-evenly align-items-center">
-            <a href="https://www.facebook.com" class="nav-link">
-                <i class="fab fa-facebook-f"></i>
-            </a>
-            <a href="https://www.instagram.com/psiccrecercontigo/" class="nav-link" target="_blank" rel="noopener noreferrer">
-                <i class="fab fa-instagram"></i>
-            </a>
         </div>
     </div>
 </div>

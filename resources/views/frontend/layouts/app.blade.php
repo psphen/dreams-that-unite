@@ -24,7 +24,7 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link rel="icon" type="image/x-icon" href="{{asset('uploads/settings/'.$favicon)}}"/>
+    <link rel="icon" type="image/x-icon" href="{{asset('frontend/img/pagina/logo.jpg')}}" style="border-radius: 50%;">/>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com"/>
